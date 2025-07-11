@@ -16,7 +16,7 @@ I'll give you the work in several steps (tasks), and you'll implement them one b
 - Each number (cell) in the table should be clickable.
 - When a cell is selected, the user (imagine an audiologist) can adjust the value up or down by 3 (for example, click `+3` or `-3`).
 
-  ![Gain Table](./assets/gain-table.gif)
+  <img src="./assets/gain-table.gif" alt="Gain Table" width="450"/>
 
   **Example Data Structure:**
   ``` typescript
@@ -31,7 +31,7 @@ I'll give you the work in several steps (tasks), and you'll implement them one b
 - Each program also has some "acoustic configuration" settings.
 - For each setting, provide a switch or similar UI so the user can pick between several options.
 
-  ![Acoustic Configuration](./assets/acoustic-configuration.png)
+  <img src="./assets/acoustic-configuration.png" alt="Acoustic Configuration" width="400"/>
 
 ### Undo/Redo Support
 - After the user changes gain values or settings, they should be able to undo or redo their changes, just like in common apps.
@@ -41,7 +41,7 @@ I'll give you the work in several steps (tasks), and you'll implement them one b
 - When a row or column is selected, adjustments (+3/-3) apply to all cells in that row or column.
 - Undo/redo should work for these batch changes as well.
 
-  ![Batch Adjustments](./assets/batch-adjustment.png)
+  <img src="./assets/batch-adjustment.png" alt="Batch Adjustments" width="450"/>
 
 ### Multiple Programs
 - There can be several "programs" at the same time.
